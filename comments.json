@@ -12,7 +12,7 @@
     "deduction": 10
   },
   {
-    "comment": "Python: Great use of geographic maps. We have not covered Plotly geographic map visualizations using Mapbox, but you've done research on your own to create maps.",
+    "comment": "Python: Great use of geographic maps. We have not covered Plotly geographic map visualizations using Mapbox, but you've researched on your own to create maps.",
     "deduction": 0
   },
   {
@@ -24,7 +24,7 @@
     "deduction": 4
   },
   {
-    "comment": "Python: Latitude and longitude cooridnates are only useful when they are used in a geographic map. Consider using a geographic map visual (e.g., mapbox with plotly).",
+    "comment": "Python: Latitude and longitude coordinates are only useful when they are used in a geographic map. Consider using a geographic map visual (e.g., mapbox with plotly).",
     "deduction": 5
   },
   {
@@ -44,7 +44,7 @@
     "deduction": 0
   },
   {
-    "comment": "Python: Although you have showed the results of the tokenization and sentiment analysis, we did not see any additional analyses based on those results. For example, which tokens were most often associated with positive and/or negative tokens? Is there a specific company with an unusually high frequency of one or more tokens (e.g., maintenance, elevator, deposit)?",
+    "comment": "Python: Although you have shown the results of the tokenization and sentiment analysis, we did not see any additional analyses based on those results. For example, which tokens were most often associated with positive and/or negative tokens? Is there a specific company with an unusually high frequency of one or more tokens (e.g., maintenance, elevator, deposit)?",
     "deduction": 8
   },
   {
@@ -64,15 +64,15 @@
     "deduction": 4
   },
   {
-    "comment": "Tableau: Displaying the sum of review ratings or review likes does not convery any useful information. Consider using the average instead.",
+    "comment": "Tableau: Displaying the sum of review ratings or review likes does not convey any useful information. Consider using the average instead.",
     "deduction": 4
   },
   {
-    "comment": "Tableau: For bar charts, sort the bars in ascending or descending orders unless the categories is ordinal.",
+    "comment": "Tableau: For bar charts, sort the bars in ascending or descending orders unless the category is ordinal.",
     "deduction": 4
   },
   {
-    "comment": "Tableau: To use a time-series in the x-axis, consider aggregating dates into weeks, months, or years. Using the day as a unit will result in a cluttered and incomprehensible chart due to too many data points.",
+    "comment": "Tableau: To use a time series in the x-axis, consider aggregating dates into weeks, months, or years. Using the day as a unit will result in a cluttered and incomprehensible chart due to too many data points.",
     "deduction": 3
   },
   {
