@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import copy from "copy-to-clipboard";
 import toast, { Toaster } from "react-hot-toast";
 import { FiArrowDown } from "react-icons/fi";
+import { TbEditCircleOff } from "react-icons/tb";
 import { RxReset } from "react-icons/rx";
 import { BsCopy } from "react-icons/bs";
 
@@ -113,12 +114,23 @@ export default function Home() {
       </div>
 
       <div className="flex-1 flex flex-col w-full h-screen p-2 gap-y-2">
-        <Textarea
-          rows={10}
-          value={generatedComment}
-          className="w-full"
-          readOnly
-        />
+        <div className="relative">
+          <Textarea
+            rows={10}
+            value={generatedComment}
+            className="w-full"
+            onFocus={(event) => event.target.select()}
+            readOnly
+          />
+
+          <Badge
+            icon={TbEditCircleOff}
+            color="warning"
+            className="absolute top-2 right-2"
+          >
+            Read Only
+          </Badge>
+        </div>
 
         <Button
           gradientDuoTone="purpleToBlue"
