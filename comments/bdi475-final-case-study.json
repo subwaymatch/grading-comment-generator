@@ -1,0 +1,146 @@
+[
+  {
+    "comment": "Python: Good work cleaning the data.",
+    "deduction": 0
+  },
+  {
+    "comment": "Python: Use display() instead of print() to display DataFrames. Using print() will forcefully convert a DataFrame into a non-tabular (i.e., plain string) format.",
+    "deduction": 0
+  },
+  {
+    "comment": "Python: To use built-in Pandas DataFrame functions, make sure you invoke the function by adding a set of parenthesis. For example, use df.head() instead of df.head.",
+    "deduction": 3
+  },
+  {
+    "comment": "Python: Your notebook did not run due to a code block that references an unimported package or a file that only exists in your Google Colab or Jupyter environment. We have excluded those code cells from grading.",
+    "deduction": 10
+  },
+  {
+    "comment": "Python: You have not met the minimum requirements to create 1 box plot or histogram and at least 5 other types of charts",
+    "deduction": 20
+  },
+  {
+    "comment": "Python: A box plot is not useful when you have an ordinal categorical variable like review_rating. The distribution of the review_rating column would be better represented with a bar chart or a pie chart.",
+    "deduction": 3
+  },
+  {
+    "comment": "Python: Your scatter plot uses a non-numeric data type in one of the axes. For scatter plots, always use numeric values for both axes.",
+    "deduction": 4
+  },
+  {
+    "comment": "Python: A scatter plot does not work well to display the relationship between review ratings vs review likes because the data points overlap with each other and there is no way to comprehend the concentration of data points. Consider using a box plot or another type of chart.",
+    "deduction": 5
+  },
+  {
+    "comment": "Python: A 3D scatter plot should not be used unless you have spatial or scientific data that is best visualized in a 3-dimensional space. Your 3D scatter plot was difficult to interpret.",
+    "deduction": 5
+  },
+  {
+    "comment": "Your bar chart is extremely fragmented. With px.bar(), each row of the DataFrame is represented as a rectangular mark. Aggregate the data in advance using Pandas before passing the DataFrame to Plotly.",
+    "deduction": 5
+  },
+  {
+    "comment": "Python: Avoid displaying too many bars in a bar chart. Display the top n categories or group the data.",
+    "deduction": 5
+  },
+  {
+    "comment": "Python: For bar charts, sort the bars in ascending or descending orders unless the category is ordinal.",
+    "deduction": 4
+  },
+  {
+    "comment": "Python: Latitude and longitude coordinates are only useful when they are used in a geographic map. Consider using a geographic map visual (e.g., mapbox with plotly).",
+    "deduction": 5
+  },
+  {
+    "comment": "Python: A line chart should only have a few lines or use color as a contrast so that the trends are clearly communicated.",
+    "deduction": 5
+  },
+  {
+    "comment": "Python: Your pie chart has too many slices and cannot be interpreted. Select the top n categories or group smaller slices into one slice as the \"Other\" category.",
+    "deduction": 3
+  },
+  {
+    "comment": "Python: Your sunburst chart has too many branches. A cluttered sunburst chart was explicitly shared as an example of a bad visualization in class. Preprocess the data so that you selectively display fewer categories or merge smaller categories into an \"Other\" category.",
+    "deduction": 5
+  },
+  {
+    "comment": "Python: Your treemap chart has too many pieces. Preprocess the data so that you selectively display fewer categories or merge smaller categories into an \"Other\" category.",
+    "deduction": 5
+  },
+  {
+    "comment": "Python: Great use of geographic maps. We have not covered Plotly geographic map visualizations using Mapbox, but you've researched on your own to create maps.",
+    "deduction": 0
+  },
+  {
+    "comment": "Python: Nice work incorporating text analysis into your notebook.",
+    "deduction": 0
+  },
+  {
+    "comment": "Python: Although you have shown the results of the tokenization and sentiment analysis, we did not see any additional analyses based on those results. For example, which tokens were most often associated with positive and/or negative tokens? Is there a specific company with an unusually high frequency of one or more tokens (e.g., maintenance, elevator, deposit)?",
+    "deduction": 8
+  },
+  {
+    "comment": "Python: To use the sentiment scores in your analysis, make sure you distinguish positive/sentiment scores. For example, convert the \"NEGATIVE\" sentiment scores to a negative value.",
+    "deduction": 4
+  },
+  {
+    "comment": "Python: We recommend cleaning up your notebook so that it can be used as a portfolio. The notebook contains text/code cells that require additional explanations on how they are relevant.",
+    "deduction": 0
+  },
+  {
+    "comment": "Tableau: You did not submit a Tableau workbook. If you choose to use Plotly for all visualizations, we expect client-ready visualizations with refined executions.",
+    "deduction": 20
+  },
+  {
+    "comment": "Tableau: You have not met the minimum requirements to create 10 different visualizations.",
+    "deduction": 10
+  },
+  {
+    "comment": "Tableau: Your visual depicts inaccurate information.",
+    "deduction": 4
+  },
+  {
+    "comment": "Tableau: You have only used the businesses table to create visualizations. This results in unweighed aggregated averages which may be misleading. To calculate the accurate averages, use the reviews table.",
+    "deduction": 6
+  },
+  {
+    "comment": "Tableau: Displaying the sum of review ratings or review likes does not convey any useful information. Consider using the average instead.",
+    "deduction": 4
+  },
+  {
+    "comment": "Tableau: Avoid displaying too many bars in a bar chart. Display the top n categories or group the data.",
+    "deduction": 5
+  },
+  {
+    "comment": "Tableau: For bar charts, sort the bars in ascending or descending orders unless the category is ordinal.",
+    "deduction": 4
+  },
+  {
+    "comment": "Tableau: To use a time series in the x-axis, consider aggregating dates into weeks, months, or years. Using the day as a unit will result in a cluttered and incomprehensible chart due to too many data points.",
+    "deduction": 3
+  },
+  {
+    "comment": "Visualization: Creating meaningful visualizations is a time-consuming process that requires data manipulation before passing the data to a plotting library. Some of your visuals felt like they were created to meet the minimum requirements, not to communicate interesting insights to the viewers. I would encourage you to think from a viewer's point. Why is a visual relevant to the context of leasing companies in one or more campuses?",
+    "deduction": 10
+  },
+  {
+    "comment": "General: You did not incorporate text analysis into your case study.",
+    "deduction": 10
+  },
+  {
+    "comment": "Notebook: You have not added text cells to explain what the code cells are doing.",
+    "deduction": 10
+  },
+  {
+    "comment": "Notebook: You did not provide a 1~2 paragraph conclusion summarizing your findings.",
+    "deduction": 10
+  },
+  {
+    "comment": "General: Overall, good efforts. However, we see a large room for improvement. We wish that you had submitted the first draft so that we could have provided feedback to guide you in the right direction with the visualizations and NLP analysis. We hope you take the knowledge from this case study and apply it to solve real-world problems.",
+    "deduction": 0
+  },
+  {
+    "comment": "General: Very nice work! We are confident that you will take the knowledge from this case study and apply it to solve real-world problems.",
+    "deduction": 0
+  }
+]

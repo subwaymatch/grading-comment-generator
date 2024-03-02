@@ -1,0 +1,119 @@
+[
+  {
+    "comment": "Excellent work!",
+    "deduction": 0
+  },
+  {
+    "comment": "Nice work!",
+    "deduction": 0
+  },
+
+  {
+    "comment": "Good efforts!",
+    "deduction": 0
+  },
+  {
+    "comment": "Python Submission Requirement: Submitted only an HTML file without the .ipynb notebook",
+    "deduction": 5
+  },
+  {
+    "comment": "Multiple test cases failed due to mismatching Pandas version. We reviewed your subm.",
+    "deduction": 0
+  },
+  {
+    "comment": "Analysis 1: Incorrect sort - sort by month and then amount in descending order",
+    "deduction": 2
+  },
+  {
+    "comment": "Analysis 1: Incorrect column order",
+    "deduction": 2
+  },
+  {
+    "comment": "Analysis 2: Incorrect sort",
+    "deduction": 2
+  },
+  {
+    "comment": "Analysis 3: Incorrect result - df_a3 should only include 10 rows",
+    "deduction": 2
+  },
+  {
+    "comment": "Internal Control Test 1: Incorrect result - df_ic1 should contain 458 rows.",
+    "deduction": 2
+  },
+  {
+    "comment": "Internal Control Test 1: Incorrect column name(s)",
+    "deduction": 1
+  },
+  {
+    "comment": "Internal Control Test 1: Incorrect column order",
+    "deduction": 1
+  },
+  {
+    "comment": "Internal Control Test 1: Incorrect sort, should be sorted by amount in descending order",
+    "deduction": 2
+  },
+  {
+    "comment": "Internal Control Test 1: num_violations_ic1 should be an integer",
+    "deduction": 1
+  },
+  {
+    "comment": "Internal Control Test 2: Incorrect column order",
+    "deduction": 1
+  },
+  {
+    "comment": "Internal Control Test 2: Incorrect column name(s)",
+    "deduction": 1
+  },
+  {
+    "comment": "Internal Control Test 2: Incorrect result, the output table should have 66 rows",
+    "deduction": 3
+  },
+  {
+    "comment": "Fraud Test 1 Benford: Test case failed due to percentage unit difference, no deduction",
+    "deduction": 0
+  },
+  {
+    "comment": "Fraud Test 1 Benford: Incorrect result, digit 1 should have a count of 33113",
+    "deduction": 3
+  },
+  {
+    "comment": "Fraud Test 2 Duplicate Transactions: Incorrect result, the output should have 1733 rows",
+    "deduction": 2
+  },
+  {
+    "comment": "Fraud Test 2B Worst Offenders: Use count() instead of sum(). Each row in df_duplicates is considered 1 violation (i.e., a transaction with 30 duplicate entries is considered to be a single violation, not 30 separate violations). Using sum() treats 30 duplicate entries as 30 separate violations.",
+    "deduction": 3
+  },
+  {
+    "comment": "Fraud Test 2B Worst Offenders: Listed more than 10 employees",
+    "deduction": 2
+  },
+  {
+    "comment": "Fraud Test 2B Worst Offenders: Incorrect result, bailey, j has the largest number of violations of 78",
+    "deduction": 3
+  },
+  {
+    "comment": "Part 6A Additional Analyses: Missing interpretation of the results",
+    "deduction": 4
+  },
+  {
+    "comment": "Part 6A Additional Analyses: Your interpretation is based on an existing analysis. We expect one or more additional analyses.",
+    "deduction": 8
+  },
+  {
+    "comment": "Part 6A Additional Analyses: Great start! However, the current analysis itself may not be useful to an internal auditor. Having one or more follow-up analyses could make the analysis more useful.",
+    "deduction": 4
+  },
+  {
+    "comment": "Part 6A Additional Analyses: Great start! However, the current analysis itself may not be useful to an internal auditor. You would need more context such as the number of transactions and average transaction amount. You should also look at the purchases made by the potential violators (either by random sampling or manual browsing). Having one or more follow-up analyses could make the analysis more useful.",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 6A Additional Analyses: Missing response",
+    "deduction": 12
+  },
+  {
+    "comment": "Part 6B Requesting Additional Date: Missing response",
+    "deduction": 6
+  }
+]

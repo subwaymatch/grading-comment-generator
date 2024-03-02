@@ -9,14 +9,14 @@ import { TbEditCircleOff } from "react-icons/tb";
 import { RxReset } from "react-icons/rx";
 import { BsCopy } from "react-icons/bs";
 
-import commentsList from "../comments.json";
+import commentsList from "../comments/accy575-03-database.json";
 
 interface IComment {
   comment: string;
   deduction: number;
 }
 
-const totalAvailablePoints = 140;
+const totalAvailablePoints = 80;
 
 export default function Home() {
   const [addedComments, setAddedComments] = useState(
@@ -119,7 +119,6 @@ export default function Home() {
             rows={10}
             value={generatedComment}
             className="w-full"
-            onFocus={(event) => event.target.select()}
             readOnly
           />
 
