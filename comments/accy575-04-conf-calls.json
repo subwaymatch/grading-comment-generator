@@ -1,0 +1,119 @@
+[
+  {
+    "comment": "Excellent work!",
+    "deduction": 0
+  },
+  {
+    "comment": "Nice work!",
+    "deduction": 0
+  },
+
+  {
+    "comment": "Good efforts!",
+    "deduction": 0
+  },
+  {
+    "comment": "Part 3E: Use unique IDs (e.g., an integer primary key or a UUID) for products and customers.",
+    "deduction": 1
+  },
+  {
+    "comment": "Part 3G: The FOREIGN KEY constraint failed error means SQLite throws cannot find a row in tblCustomers with a CustomerID of Company AA. Similarly, SQLite cannot find a row in tblProducts with a ProductCode of Northwind Traders Chai. To make the INSERT INTO query work, CustomerID == 27 and ProductCode == NWTB-1 should be used.",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 3J: Foreign key constraints ensures that invalid CustomerID or ProductCode cannot be inserted to the table.",
+    "deduction": 1
+  },
+  {
+    "comment": "Part 4A: Incorrect query, use WHERE state == 'WI'",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 4A: Incorrect columns, select all columns using the * wildcard",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 4B: Incorrect query, use state IN ('NY', 'MA')",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 4B: Incorrect columns, select all columns using the * wildcard",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 5A: Incorrect columns (or column order)",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 5B: To omit rows where there are no matches between tblOrders3 and tblOrderDetails, use an INNER JOIN between the two tables (INNER JOIN tblOrderDetails ON tblOrders3.OrderID = tblOrderDetails.OrderID). The output table should have 58 rows, not 66 rows.",
+    "deduction": 3
+  },
+  {
+    "comment": "Part 5B: Incorrect columns (or column order)",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 5C: Missing response",
+    "deduction": 3
+  },
+  {
+    "comment": "Part 5C: There are duplicate OrderIDs in df_5b because a customer can order more than one product. As an example, Company AA ordered 2 different products in OrderID 30 and Company D ordered 3 different products in OrderID 31.",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 5D: Incorrect column name or column order",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 6A: Incorrect result - total revenue should be 68137.0",
+    "deduction": 3
+  },
+  {
+    "comment": "Part 6A: Incorrect data type - total_revenue should be a float, not a float-typed Series",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 6B: Incorrect result - Q1 revenue should be 38686.75 and Q2 revenue should be 29450.25",
+    "deduction": 3
+  },
+  {
+    "comment": "Part 6B: Incorrect sort - the output should be sorted by Quarter in ascending order",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 6C: Incorrect result - Northwind Traders Coffee (NWTB-43) has the highest revenue of 29900 and a profit of 7475",
+    "deduction": 4
+  },
+  {
+    "comment": "Part 6C: Incorrect result - Northwind Traders Boysenberry Spread (NWTJP-6) has a revenue of 5740 and a profit of 3115",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 6C: Incorrect column order or column names",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 6C: df_product_summary should contain 23 rows. Your df_product_summary only contains 5 rows.",
+    "deduction": 1
+  },
+  {
+    "comment": "Part 6C: df_product_summary should contain 23 rows. Your df_product_summary contains 58 rows. You can check this by printing the full df_product summary. Rows 24-58 (indices 23-57) in your df_product_summary contain missing values.",
+    "deduction": 3
+  },
+  {
+    "comment": "Part 6D: Incorrect result - Company BB (CustomerID == 28) has generated the highest revenue of 15432.5 and a profit of 3858.0",
+    "deduction": 4
+  },
+  {
+    "comment": "Part 6D: Incorrect column order or column names",
+    "deduction": 2
+  },
+  {
+    "comment": "Part 6D: Incorrect sort, should be sorted by Profit in descending order",
+    "deduction": 2
+  },
+  {
+    "comment": "Please refer to the attached file for the autograded results.",
+    "deduction": 0
+  }
+]

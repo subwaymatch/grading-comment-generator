@@ -9,7 +9,7 @@ import { TbEditCircleOff } from "react-icons/tb";
 import { RxReset } from "react-icons/rx";
 import { BsCopy } from "react-icons/bs";
 
-import commentsList from "../comments/accy575-03-database.json";
+import commentsList from "../comments/accy575-04-conf-calls.json";
 
 interface IComment {
   comment: string;
@@ -77,7 +77,7 @@ export default function Home() {
     addedComments.forEach((isAdded, i) => {
       const o = commentsList[i];
       if (isAdded) {
-        newString += `• ${getCommentString(o)}`;
+        newString += `- ${getCommentString(o)}`;
 
         if (o["deduction"] > 0) {
           totalDeductions += o["deduction"];
